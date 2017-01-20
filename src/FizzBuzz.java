@@ -21,7 +21,7 @@ public class FizzBuzz {
             //outputs "Fizz" if number is multiple of 1st argument; "Buzz" if
             //is multiple of 2nd argument; and "FizzBuzz" is number is multiple
             //of both arguments. Otherwise, will output number.
-            for (int i = 1; i < limit; i++) {
+            for (int i = 1; i <= limit; i++) {
                 if (i % fizz == 0 && i % buzz == 0) {
                     System.out.println("FizzBuzz");
                 } else if (i % fizz == 0) {
