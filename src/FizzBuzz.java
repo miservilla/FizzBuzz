@@ -8,19 +8,19 @@
 public class FizzBuzz {
 
     public static void main (String[] args) {
-        //error handling for inappropriate number of arguments
+        //Error handling for inappropriate number of arguments.
         if (args.length != 3) {
             System.out.println("Incorrect number of arguments!");
 
         } else {
-            //input arguments
+            //Input arguments
             int limit = Integer.parseInt(args[0]);
             int fizz = Integer.parseInt(args[1]);
             int buzz = Integer.parseInt(args[2]);
 
-            /*outputs "Fizz" if number(i) is multiple of 2nd argument; "Buzz" if
-            is multiple of 3rd argument; and "FizzBuzz" is number is multiple
-            of both arguments. Otherwise, will output number.*/
+            /*Outputs "Fizz" if 2nd argument is amultiple of number(i); "Buzz" if
+            3rd argument is a multiple of number(i); and "FizzBuzz" if both 2nd and 3rd
+            arguments are a multiple of number(i). Otherwise, will output number.*/
             for (int i = 1; i <= limit; i++) {
                 if (i % fizz == 0 && i % buzz == 0) {
                     System.out.println("FizzBuzz");
