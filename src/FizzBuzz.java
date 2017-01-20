@@ -18,9 +18,9 @@ public class FizzBuzz {
             int fizz = Integer.parseInt(args[1]);
             int buzz = Integer.parseInt(args[2]);
 
-            /*Outputs "Fizz" if 2nd argument is amultiple of number(i); "Buzz" if
+            /*Outputs "Fizz" if 2nd argument is a multiple of number(i); "Buzz" if
             3rd argument is a multiple of number(i); and "FizzBuzz" if both 2nd and 3rd
-            arguments are a multiple of number(i). Otherwise, will output number.*/
+            arguments are multiples of number(i). Otherwise, will output number.*/
             for (int i = 1; i <= limit; i++) {
                 if (i % fizz == 0 && i % buzz == 0) {
                     System.out.println("FizzBuzz");
